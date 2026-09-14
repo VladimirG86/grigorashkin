@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-stack разработчик & IT-специалист | Портфолио</title>
+    <meta name="description" content="Full-stack разработка и IT-решения под ключ. Создаю современные веб-приложения, автоматизирую бизнес-процессы, обеспечиваю надёжную IT-инфраструктуру.">
+    <meta property="og:title" content="Full-stack разработчик & IT-специалист | Портфолио">
+    <meta property="og:description" content="Full-stack разработка и IT-решения под ключ. Создаю современные веб-приложения, автоматизирую бизнес-процессы.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Full-stack разработчик & IT-специалист",
+      "description": "Full-stack разработка и IT-решения под ключ",
+      "url": "https://yourdomain.com",
+      "telephone": "+7-900-123-45-67",
+      "email": "alex@example.com",
+      "sameAs": [
+        "https://github.com/yourusername",
+        "https://linkedin.com/in/yourusername",
+        "https://t.me/yourusername"
+      ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>GVV<span class="logo-bracket">/&gt;</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#portfolio" class="nav-link">Портфолио</a>
+                <a href="#process" class="nav-link">Процесс</a>
+                <a href="#testimonials" class="nav-link">Отзывы</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <canvas id="particles-canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+                <span class="badge-dot"></span>
+                Доступен для новых проектов
+            </div>
+            <h1 class="hero-title animate-fade-in">
+                <span class="hero-name">Full-stack разработка и IT-решения под ключ</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-in">
+                Создаю современные веб-приложения, автоматизирую бизнес-процессы и обеспечиваю надёжную IT-инфраструктуру
+            </p>
+            <p class="hero-description animate-fade-in">
+                Более 7 лет опыта • 150+ успешных проектов • Индивидуальный подход к каждой задаче
+            </p>
+            <div class="hero-buttons animate-fade-in">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Обсудить проект
+                </a>
+                <a href="#portfolio" class="btn btn-secondary">
+                    <i class="fas fa-eye"></i>
+                    Смотреть портфолио
+                </a>
+            </div>
+            <div class="hero-stats animate-fade-in">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="7">0</span>
+                    <span class="stat-label">Лет опыта</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="150">0</span>
+                    <span class="stat-label">Проектов</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span>
+                    <span class="stat-label">Клиентов</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-btn">
+                <span class="scroll-mouse">
+                    <span class="scroll-wheel"></span>
+                </span>
+                <span class="scroll-text">Листайте вниз</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Знакомство</span>
+                <h2 class="section-title">Обо мне</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">7+</span>
+                        <span class="exp-text">лет опыта</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3 class="about-name">Full-stack разработчик</h3>
+                    <p class="about-role">IT-специалист широкого профиля</p>
+                    <p class="about-text">
+                        Более 7 лет занимаюсь разработкой веб-приложений и решением 
+                        IT-задач различной сложности. Специализируюсь на создании 
+                        масштабируемых решений, которые помогают бизнесу расти и 
+                        автоматизировать процессы.
+                    </p>
+                    <p class="about-text">
+                        Мой подход — глубокое погружение в задачу, чистый код и 
+                        современные технологии. Каждый проект — это не просто код, 
+                        а решение реальной бизнес-задачи.
+                    </p>
+                    
+                    <div class="tech-stack">
+                        <h4 class="stack-title">Технологический стек</h4>
+                        <div class="stack-grid">
+                            <div class="tech-item" data-tooltip="JavaScript">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="TypeScript">
+                                <i class="fas fa-code"></i>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="React">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Node.js">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Python">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="PostgreSQL">
+                                <i class="fas fa-database"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Docker">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Linux">
+                                <i class="fab fa-linux"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="1С">
+                                <i class="fas fa-cogs"></i>
+                                <span>1С</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Git">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Что я делаю</span>
+                <h2 class="section-title">Услуги</h2>
+                <p class="section-subtitle">Комплексные IT-решения для вашего бизнеса</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Разработка сайтов</h3>
+                    <p class="service-desc">
+                        Создание современных веб-приложений и сайтов любой сложности: 
+                        от лендингов до сложных корпоративных порталов и SaaS-платформ.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Адаптивная вёрстка</li>
+                        <li><i class="fas fa-check"></i> SPA & SSR приложения</li>
+                        <li><i class="fas fa-check"></i> REST & GraphQL API</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3 class="service-title">Интеграции и автоматизация</h3>
+                    <p class="service-desc">
+                        Интеграция различных систем и сервисов, автоматизация 
+                        рутинных процессов, настройка API-интеграций и синхронизация данных.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> API-интеграции</li>
+                        <li><i class="fas fa-check"></i> Автоматизация процессов</li>
+                        <li><i class="fas fa-check"></i> Синхронизация данных</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="service-title">Администрирование серверов</h3>
+                    <p class="service-desc">
+                        Настройка и поддержка серверной инфраструктуры, 
+                        мониторинг, резервное копирование, обеспечение безопасности.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Linux & Windows Server</li>
+                        <li><i class="fas fa-check"></i> Docker & Kubernetes</li>
+                        <li><i class="fas fa-check"></i> CI/CD пайплайны</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Настройка CRM/1С</h3>
+                    <p class="service-desc">
+                        Внедрение и настройка CRM-систем, интеграция с 1С, 
+                        автоматизация учёта и документооборота.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Битрикс24, AmoCRM</li>
+                        <li><i class="fas fa-check"></i> 1С:Предприятие</li>
+                        <li><i class="fas fa-check"></i> Обмен данными</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title">IT-инфраструктура</h3>
+                    <p class="service-desc">
+                        Консультации и проектирование IT-инфраструктуры, 
+                        выбор оптимальных решений, аудит безопасности.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Аудит систем</li>
+                        <li><i class="fas fa-check"></i> Миграция данных</li>
+                        <li><i class="fas fa-check"></i> Техническая поддержка</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Мобильная разработка</h3>
+                    <p class="service-desc">
+                        Разработка кроссплатформенных мобильных приложений 
+                        с использованием современных фреймворков.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> React Native</li>
+                        <li><i class="fas fa-check"></i> PWA приложения</li>
+                        <li><i class="fas fa-check"></i> Push-уведомления</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Мои работы</span>
+                <h2 class="section-title">Портфолио</h2>
+                <p class="section-subtitle">Избранные проекты и кейсы</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все проекты</button>
+                <button class="filter-btn" data-filter="web">Веб-разработка</button>
+                <button class="filter-btn" data-filter="integration">Интеграции</button>
+                <button class="filter-btn" data-filter="mobile">Мобильные</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="web" data-modal="project1">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <span class="card-link">Подробнее <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">E-commerce</span>
+                        <h3 class="card-title">Интернет-магазин «TechStore»</h3>
+                        <p class="card-desc">Полнофункциональный маркетплейс электроники с личным кабинетом, системой оплаты и админ-панелью.</p>
+                        <div class="card-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="integration" data-modal="project2">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <span class="card-link">Подробнее <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Интеграция</span>
+                        <h3 class="card-title">CRM-интеграция для «ЛогистикПро»</h3>
+                        <p class="card-desc">Автоматизация обработки заказов между CRM, 1С и складской системой.</p>
+                        <div class="card-stack">
+                            <span>Python</span>
+                            <span>1С API</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="web" data-modal="project3">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <span class="card-link">Подробнее <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">SaaS</span>
+                        <h3 class="card-title">Аналитическая панель «DataViz»</h3>
+                        <p class="card-desc">Дашборд для визуализации бизнес-метрик в реальном времени с настраиваемыми виджетами.</p>
+                        <div class="card-stack">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="mobile" data-modal="project4">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <span class="card-link">Подробнее <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Мобильное приложение</span>
+                        <h3 class="card-title">Доставка еды «FoodExpress»</h3>
+                        <p class="card-desc">Кроссплатформенное приложение для заказа еды с геолокацией и системой лояльности.</p>
+                        <div class="card-stack">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="web" data-modal="project5">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <span class="card-link">Подробнее <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">EdTech</span>
+                        <h3 class="card-title">Платформа онлайн-обучения «EduHub»</h3>
+                        <p class="card-desc">LMS-система с видеокурсами, тестированием и системой сертификации.</p>
+                        <div class="card-stack">
+                            <span>Next.js</span>
+                            <span>PostgreSQL</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" data-category="integration" data-modal="project6">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <span class="card-link">Подробнее <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Автоматизация</span>
+                        <h3 class="card-title">Чат-бот для «СервисМастер»</h3>
+                        <p class="card-desc">Telegram-бот для автоматизации записи клиентов и обработки заявок.</p>
+                        <div class="card-stack">
+                            <span>Python</span>
+                            <span>Aiogram</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Как я работаю</span>
+                <h2 class="section-title">Процесс работы</h2>
+                <p class="section-subtitle">Прозрачный и понятный подход к каждому проекту</p>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3 class="timeline-title">Заявка и бриф</h3>
+                        <p class="timeline-desc">
+                            Получаю вашу заявку, провожу первичный анализ задачи 
+                            и заполняю бриф для детального понимания проекта.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3 class="timeline-title">Обсуждение</h3>
+                        <p class="timeline-desc">
+                            Встречаемся онлайн или лично, обсуждаем детали проекта, 
+                            определяем цели, требования и пожелания.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3 class="timeline-title">Оценка и сроки</h3>
+                        <p class="timeline-desc">
+                            Формирую детальную смету с разбивкой на этапы, 
+                            определяю сроки и согласовываем бюджет.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="timeline-title">Разработка</h3>
+                        <p class="timeline-desc">
+                            Пишу код, регулярно показываю промежуточные результаты, 
+                            вношу правки по вашим комментариям.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="timeline-title">Сдача и поддержка</h3>
+                        <p class="timeline-desc">
+                            Тестирую,_deployю проект, передаю документацию 
+                            и обеспечиваю техническую поддержку.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Отзывы</span>
+                <h2 class="section-title">Что говорят клиенты</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <div class="avatar-placeholder">АИ</div>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Андрей Иванов</h4>
+                            <p class="testimonial-company">CEO, TechStart</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        «Разработчик выполнил проект на высшем уровне. Сроки были соблюдены, 
+                        коммуникация отличная. Рекомендую как надёжного исполнителя.»
+                    </p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <div class="avatar-placeholder">МС</div>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Мария Смирнова</h4>
+                            <p class="testimonial-company">Руководитель отдела, ЛогистикПро</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        «Интеграция CRM с 1С прошла гладко. Автоматизация сэкономила 
+                        нам десятки часов работы в неделю. Спасибо за профессионализм!»
+                    </p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <div class="avatar-placeholder">ДК</div>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Дмитрий Козлов</h4>
+                            <p class="testimonial-company">Основатель, FoodExpress</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        «Мобильное приложение получилось именно таким, как мы хотели. 
+                        Пользователи в восторге от удобства и скорости работы.»
+                    </p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <div class="avatar-placeholder">ЕП</div>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Елена Петрова</h4>
+                            <p class="testimonial-company">Маркетолог, EduHub</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        «Платформа для онлайн-обучения работает безупречно. 
+                        Разработчик учёл все наши пожелания и предложил отличные решения.»
+                    </p>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-btn next-btn" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Связаться со мной</span>
+                <h2 class="section-title">Контакты</h2>
+                <p class="section-subtitle">Готов обсудить ваш проект</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:alex@example.com">alex@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telegram</h4>
+                            <a href="https://t.me/yourusername" target="_blank">@yourusername</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/79001234567" target="_blank">+7 (900) 123-45-67</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-socials">
+                        <h4>Социальные сети</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://hh.ru/resume/yourid" target="_blank" aria-label="HeadHunter">
+                                <i class="fas fa-briefcase"></i>
+                            </a>
+                            <a href="https://freelance.ru/yourprofile" target="_blank" aria-label="Freelance.ru">
+                                <i class="fas fa-user-tie"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required placeholder="Как к вам обращаться?">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact">Контакт для связи *</label>
+                            <input type="text" id="contact" name="contact" required placeholder="Email или телефон">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Интересующая услуга</label>
+                            <select id="service" name="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="web">Разработка сайта</option>
+                                <option value="integration">Интеграции и автоматизация</option>
+                                <option value="server">Администрирование серверов</option>
+                                <option value="crm">Настройка CRM/1С</option>
+                                <option value="consulting">IT-консалтинг</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение *</label>
+                            <textarea id="message" name="message" required placeholder="Опишите вашу задачу..." rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Отправить сообщение
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>GVV<span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-text">
+                    © 2024 Full-stack разработчик. Все права защищены.
+                </p>
+                <div class="footer-links">
+                    <a href="#about">Обо мне</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Content will be dynamically inserted -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

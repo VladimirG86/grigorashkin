@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Full-stack разработчик - Full-stack разработчик",
+  "description": "Full-stack разработка и IT-решения под ключ. Создаю современные веб-приложения, автоматизирую бизнес-процессы.",
+  "url": "https://yourdomain.com",
+  "logo": "https://yourdomain.com/favicon.svg",
+  "image": "https://yourdomain.com/og-image.jpg",
+  "telephone": "+7-900-123-45-67",
+  "email": "alex@example.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "RU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "55.7558",
+    "longitude": "37.6173"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "priceRange": "$$",
+  "sameAs": [
+    "https://github.com/yourusername",
+    "https://linkedin.com/in/yourusername",
+    "https://t.me/yourusername"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "IT-услуги",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Разработка веб-сайтов",
+          "description": "Создание современных веб-приложений и сайтов любой сложности"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Интеграции и автоматизация",
+          "description": "Интеграция различных систем и сервисов, автоматизация процессов"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Администрирование серверов",
+          "description": "Настройка и поддержка серверной инфраструктуры"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Настройка CRM/1С",
+          "description": "Внедрение и настройка CRM-систем, интеграция с 1С"
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "50"
+  }
+}

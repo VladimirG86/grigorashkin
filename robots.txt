@@ -1,0 +1,15 @@
+# Robots.txt for Portfolio Website
+# https://yourdomain.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl-delay (optional)
+# Crawl-delay: 10
+
+# Disallow admin pages (if any)
+# Disallow: /admin/
+# Disallow: /private/
